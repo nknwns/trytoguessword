@@ -1,0 +1,115 @@
+.form .form__wrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.form__input {
+	text-align: center;
+	height: 50px;
+	width: 400px;
+	font-size: 30px;
+	padding: 10px 5px;
+	color: #fff!important;
+	border-color: #000;
+}
+
+.form__input:focus {
+	border-color: black;
+}
+
+.form__bttv {
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	position: absolute;
+	top: calc(50% - 125px);
+	left: calc(50% - 200px);
+	background-image: url("../img/check.gif");
+}
+
+.form__bttv--nope {
+	left: calc(50% - 150px);
+	top: calc(50% - 325px);
+	height: 300px;
+	width: 300px;
+	background-image: url("../img/nope.gif");
+}
+
+.form__bttv--noob {
+	left: calc(50% + 100px);
+	background-image: url("../img/noob.gif");
+}
+
+.form__bttv--clap {
+	left: calc(50% - 100px);
+	top: calc(50% - 425px);
+	height: 400px;
+	width: 400px;
+	background-image: url("../img/clap.gif");
+}
+
+.form__bttv--yo {
+	background-image: url("../img/yo.gif");
+}
+
+.form__bttv--laugh {
+	background-image: url("../img/laugh.gif");
+}
+
+.form__bttv--catJam {
+	background-image: url("../img/catJam.gif");
+}
+
+.form__bttv--sleep {
+	background-image: url("../img/sleep.gif");
+}
+
+.form__bttv--smoking {
+	top: calc(50% - 225px);
+	height: 200px;
+	width: 200px;
+	background-image: url("../img/smoking.gif");
+}
+
+.form__bttv--rain {
+	background-image: url("../img/rain.gif");
+}
+
+.form__bttv--doit {
+	left: calc(50% - 150px);
+	top: calc(50% - 325px);
+	height: 300px;
+	width: 300px;
+	background-image: url("../img/doit.gif");
+}
+
+.form__bttv--huh {
+	background-image: url("../img/huh.gif");
+}
+
+.btn--bf {
+	font-size: 20px;
+	font-weight: 500;
+	position: absolute;
+	left: calc(50% - 55px);
+	bottom: 50px;
+}
+
+.hidden {
+	display: none!important;
+}
+
+.form__wrapper--auto form {
+	display: flex;
+	gap: 25px;
+}
+
+.form__wrapper--auto input {
+	height: 50px;
+	width: 50px;
+	padding: 0;
+	color: #000!important;
+}
